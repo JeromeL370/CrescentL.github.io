@@ -242,6 +242,11 @@ svg {
   color: var(--accent);
 }
 
+.contact-list .github-icon {
+  fill: currentColor;
+  stroke: none;
+}
+
 .contact-list a {
   color: var(--ink-soft);
 }
@@ -360,6 +365,33 @@ svg {
 
 .prose p + p {
   margin-top: 16px;
+}
+
+.about-zh {
+  margin-top: 26px;
+  padding-top: 19px;
+  border-top: 1px solid var(--line);
+  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "SimSun", serif;
+}
+
+.about-zh .zh-label {
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.about-zh p:not(.zh-label) {
+  max-width: 64ch;
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+  line-height: 1.95;
+}
+
+.about-zh p + p {
+  margin-top: 10px;
 }
 
 .nowrap {
